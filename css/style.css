@@ -1,0 +1,195 @@
+#pages > div.middleContent,#pages > div.topContent, #pages > div.homeContent {
+    display: none;
+}
+
+
+#pages > div.current {
+    display: flex;
+}
+
+.displayLandscape{
+    display:none; 
+}
+
+.visibilityLandscape{
+    visibility: hidden;
+}
+
+.container-fluid {
+    height: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: #033949;
+    height: 100vh;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.icons {
+    font-size: 38px;
+    color: white;
+}
+
+.topContent, .bottomContent{
+    height: 10%;
+    max-height: 10%;
+    background: rgb(6, 74, 94, 0.8);
+    text-align: center;
+    font-size: 38px;
+    color: white;
+    justify-content: space-between;
+}
+
+.middleContent {
+    height: 80%;
+}
+
+.homeContent {
+    height:90%;
+}
+
+h1, .jumbotron {
+    margin: 0;
+}
+
+.homeContent a {
+    margin: auto;
+    margin-bottom: 8%;
+}
+
+.flow {
+    overflow: scroll;
+}
+
+.iframe {
+    height: 80%;
+    width: 100%;
+}
+
+.iframe iframe {
+    height:100%;
+    width: 100%;
+}
+
+.aboutUs p,.aboutUs h2, .myGames{
+    font-variant: small-caps;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    text-align: justify;
+}
+
+.aboutUs h2{
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 2rem;
+    color: white;
+
+}
+
+.aboutUs::after{
+    content: "";
+    background: url(../NYSL_Website/css/images/nysl_logo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+}
+
+.chat-btn{
+
+    font-size: 2rem;
+    border-radius: 50%; 
+    display: block;
+    margin: 0 auto;
+}
+
+@media only screen and (orientation: portrait){
+    .chat-btn{
+        height: 4rem;
+        width: 4rem; 
+    }
+}
+
+.chat-btn-span{
+    display: none;
+}
+
+/*------------------------------*/
+/*------LANDSCAPE MODE----------*/
+/*------------------------------*/
+@media only screen and (orientation: landscape) {
+
+    .chat-btn-span{
+        display: inline;
+    }
+
+    .chat-btn{
+        font-size: 1rem;
+    }
+    .landscapeTopMargin{
+        margin-top: 5%;
+    }
+
+    .middleContent {
+        height: 70%;
+    }
+    
+    .homeContent {
+        height:85%;
+    }
+
+    .topContent, .bottomContent{
+        height: 15%;
+        max-height: 15%;
+    }
+
+    .displayLandscape{
+        display:block;
+    }
+
+    .visibilityLandscape{
+        visibility: visible; 
+    }
+
+    .displayPortrait{
+        display: none;
+    }
+
+    .myGames{
+        font-variant: small-caps;
+        font-size: 0.7rem;
+        font-weight: 600;
+        color: white;
+        text-align: justify;
+    }
+
+    @media only screen and (max-width: 768px){
+        .landscapeTable td{
+            font-size: 0.6rem  
+        }
+    }
+
+    .myGames div{
+        padding: 0;
+    }
+
+    .flow{
+        max-height: 100%;
+        padding: 0;
+    }
+}

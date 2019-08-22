@@ -1,0 +1,25 @@
+{"months":[{"month":"september", "games":
+[
+{"id":"1","date": "1-sep", "teams":["U1","U4"], "location": "AJ Katzenmaier", "time": "9:30 a.m."},
+{"id":"2","date": "1-sep", "teams":["U3","U2"], "location": "Greenbay", "time": "1:00 p.m."},
+{"id":"3","date": "8-sep", "teams":["U5","U6"], "location": "Howard A Yeager", "time": "9:30 a.m."},
+{"id":"4","date": "8-sep", "teams":["U6","U1"], "location": "Marjorie P Hart", "time": "1:00 p.m."},
+{"id":"5","date": "15-sep", "teams":["U2","U4"], "location": "North", "time": "9:30 a.m."},
+{"id":"6","date": "15-sep", "teams":["U3","U5"], "location": "AJ Katzenmaier", "time": "1:00 p.m."},
+{"id":"7","date": "22-sep", "teams":["U1","U3"], "location": "South", "time": "9:30 a.m."},
+{"id":"8","date": "22-sep", "teams":["U2","U6"], "location": "Howard A Yeager", "time": "1:00 p.m."},
+{"id":"9","date": "29-sep", "teams":["U4","U5"], "location": "Greenbay", "time": "9:30 a.m."}
+]},
+
+{"month":"october", "games":
+[
+{"id":"1","date": "6-oct", "teams":["U2","U5"], "location": "Marjorie P Hart", "time": "9:30 a.m."},
+{"id":"2","date": "6-oct", "teams":["U1","U6"], "location": "South", "time": "1:00 p.m."},
+{"id":"3","date": "8-oct", "teams":["U3","U4"], "location": "Howard A Yeager", "time": "9:30 a.m."},
+{"id":"4","date": "8-oct", "teams":["U5","U1"], "location": "Greenbay", "time": "1:00 p.m."},
+{"id":"5","date": "20-oct", "teams":["U6","U3"], "location": "North", "time": "9:30 a.m."},
+{"id":"6","date": "20-oct", "teams":["U2","U4"], "location": "Marjorie P Hart", "time": "1:00 p.m."},
+{"id":"7","date": "27-oct", "teams":["U3","U1"], "location": "AJ Katzenmaier", "time": "9:30 a.m."},
+{"id":"8","date": "27-oct", "teams":["U5","U6"], "location": "Howard A Yeager", "time": "1:00 p.m."}
+]}
+]}
